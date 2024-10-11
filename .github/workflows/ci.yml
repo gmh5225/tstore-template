@@ -23,4 +23,7 @@ jobs:
         run: forge install
 
       - name: Run tests
-        run: forge test --use bin/solc
+        run: | 
+          chmod +x bin/solc
+          forge test --use bin/solc
+          
