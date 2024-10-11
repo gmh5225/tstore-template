@@ -1,4 +1,4 @@
 [profile.default]
-cancun = true
+evm_version = "cancun"
 [profile.ci.fuzz]
 runs = 10_000
